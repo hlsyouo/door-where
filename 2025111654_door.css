@@ -5,6 +5,7 @@
 body {
 	background-color: black;
 	margin: 0;
+	padding: 0;
 }
 
 h1,
@@ -118,6 +119,13 @@ ul {
 .e {
 	height: 100%;
 	display: flex;
+}
+
+.g1,
+.g2 {
+	height: 100%;
+	display: flex;
+	gap: 10px;
 }
 
 .a img,
@@ -266,6 +274,7 @@ ul {
 	body {
 		background-color: black;
 		margin: 0;
+		padding: 0;
 	}
 
 	h1,
@@ -361,23 +370,55 @@ ul {
 		display: flex;
 		margin-left: 15px;
 		flex-direction: column;
-		width: 50vw;
+		width: 96vw;
 		height: auto;
-		overflow: visible;
+		overflow: auto;
 		gap: 10px;
 		padding: 0;
 		box-sizing: border-box;
 	}
 
-	.d {
+	.g1, .g2 {
 		display: flex;
-		flex-direction: column;
-		width: 90vw;
+		width: 100%;
 		height: auto;
-		overflow: visible;
+		overflow: none;
 		gap: 10px;
 		padding: 0;
 		box-sizing: border-box;
+	}
+
+	.a, .b, .c, .e, .d {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		overflow: none;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.a {
+		width: 49.5%;
+	}
+
+	.b {
+		width: 49%;
+		padding-right: 9px;
+	}
+
+	.c {
+		width: 51.4%;
+	}
+
+	.e {
+		width: 49%;
+		padding-right: 9px;
+
+	}
+
+	.d {
+		width: 100%;
+		padding-right: 10px;
 	}
 
 	.garagegap {
